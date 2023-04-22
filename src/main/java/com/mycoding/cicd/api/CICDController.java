@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CICDController {
     @GetMapping("/welcome")
     public String welcome() {
-        return "Welcome to Github Actions";
+        return "Welcome to Github Actions!!";
     }
     /*
     git init
